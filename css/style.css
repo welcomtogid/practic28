@@ -1,0 +1,213 @@
+body{
+    width: 100%;
+    margin: 0;
+    
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("https://img2.goodfon.ru/original/1920x1080/f/ec/neboskreby-nyu-york-wtc-world-662.jpg")  no-repeat ;
+}
+  
+.swiper-container {
+    width: 90%;
+    height: 85%;
+    margin-top: 20px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: url("https://www.wallpapertip.com/wmimgs/65-650515_black-wallpaper-high-resolution.jpg") no-repeat center / cover;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+} 
+.img_navbar{
+    width: 600px;
+    min-width: 280px;
+    height: 400px;
+    min-height: 200px;
+} 
+ 
+/* 
+main
+*/  
+.maintext{
+    text-align: center;
+}
+.maintext h4{ 
+    margin-top: 70px;
+}
+.main_card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: black; 
+}
+.card{
+    
+}
+.link_main_card { 
+    font-size: 22px;  
+    margin-bottom: 20px;
+}
+  
+/* 
+section4
+*/
+
+.card2{
+    margin-top: 10px; 
+}
+.row{ 
+    width: 101.1%;
+    text-align: center;
+}
+.maintext_card h4{
+    padding-top: 40px;
+}
+.row{
+    text-align: left;
+}
+.link_span{
+    font-size: 20px;
+    text-decoration: underline;
+    color: black; 
+    margin-bottom: 30px;
+}
+
+/* 
+footer
+*/
+
+.foter_01{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    background: url("https://inn.spb.ru/images/500/DSC100511114.jpg ") no-repeat center / cover;
+    
+}
+.form_footer{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 80px; 
+    padding: 60px 0px;
+    color: white ;
+}
+
+.foot{
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+}
+.foot h4{
+    padding: 15px ;
+    color: white;
+}
+
+/* 
+media
+*/
+@media screen and (max-width: 534px){ 
+    .img_navbar{
+        width: 600px;
+        min-width: 280px;
+        height: 360px;
+    } 
+    .news{
+        text-align: center;
+    }
+    .news h1{
+        font-size: 30px;
+    }
+    .news h1{  
+        position: absolute;
+        margin-top: -260px; 
+    } 
+    .swiper-container {
+        width: 90%;
+        height: 70%;
+        margin-top: 20px;
+    }
+    header{
+        width: 100%;
+        height: 70vh ; 
+    }
+}
+@media screen and (max-width: 438px){   
+    .img_navbar{
+        width: 600px;
+        min-width: 280px;
+        height: 300px;
+        min-height: 200px;
+    } 
+    .news{
+        text-align: center;
+        
+    }
+    .news h1{
+        font-size: 20px;
+        margin-right: 100px;
+        position: absolute;
+        margin-top: -260px; 
+        pad: 15px 15px;
+    } 
+    .swiper-container {
+        width: 90%;
+        height: 65%;
+        margin-top: 20px;
+    }
+    header{
+        width: 100%;
+        height: 60vh ; 
+    }
+}
+@media screen and (max-width: 384px){   
+    .img_navbar{
+        width: 600px;
+        min-width: 280px;
+        height: 270px;
+    }
+    .news{
+        text-align: center; 
+
+    }
+    .news h1{
+        font-size: 18px;
+        margin-right: 100px;
+        position: absolute;
+        margin-top: -260px; 
+        padding: 15px 15px;
+    } 
+}
+@media screen and (max-width: 338px){   
+    .img_navbar{
+        width: 600px;
+        min-width: 280px;
+        height: 240px;
+    }
+    .news{
+        text-align: center; 
+        margin-right: 100px;
+    }
+    .news h1{
+        font-size: 13px;
+       
+        position: absolute;
+        margin-top: -260px; 
+        padding: 15px 15px; 
+        text-align: center;
+    } 
+}

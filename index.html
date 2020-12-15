@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+<body>
+    
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button type="button" class="btn btn-dark">New Yourk</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown ">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark  my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+          <!-- Swiper -->
+
+           <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper"> 
+        <div class="swiper-slide"> 
+          <img class="img_navbar" src="https://nypost.com/wp-content/uploads/sites/2/2018/12/santacon-nyc-1a.jpg?quality=90&amp;strip=all&amp;w=1200" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="img_navbar" src="https://news.cgtn.com/news/3351444f3545544d7945444d7941444f32637a4e31457a6333566d54/img/5d993cddbba84c66838f41d91bb65397/5d993cddbba84c66838f41d91bb65397.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img  class="img_navbar" src="https://media2.s-nbcnews.com/i/newscms/2018_52/1397915/times-square-new-years-today-main-181227_84716f591a5973c2b93c5b67f741752f.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="img_navbar" src="https://pbs.twimg.com/media/C1GjYZUWgAALZfk.jpg:large" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="img_navbar" src="https://pbs.twimg.com/media/Dvi1zhaWkAE6G_O.jpg:large" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="img_navbar"  src="https://wallpaperaccess.com/full/106761.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="img_navbar"  src="https://cdntr1.img.sputniknews.com/img/102564/38/1025643828_0:0:3071:2048_1000x666_80_0_0_4aee71e017aebb1e0a5cbcf1d30dbb27.jpg.webp" alt="">
+        </div> 
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div> 
+
+  </header>
+
+
+  <main>
+    <section class="section3">
+      <div class="maintext">
+        <h4 style="color: orange;">FEATURED</h4>
+        <h1>Programs</h1>
+      </div>
+      <div class="main_card">
+        <div data-aos="fade-down-right" data-aos-delay="300" class="card" style="width:           24rem; height: 30rem;">
+          <img src="https://www.ny.gov/sites/ny.gov/files/styles/schedule_block_310x174/public/thumbnails/image/Monroe_Zones_11.23.jpg?itok=X8Ygadgb" class="card-img-top" alt="...">
+          <div class="card-body">  
+            <a class="link_main_card" href="#">Micro-Cluster Strategy</a><br><br>
+            <p class="card-text">In New York we’re identifying Micro-Cluster hot spots to stop the spread of COVID-19. See the maps of the current clusters which are color-coded Red, Orange or Yellow.</p><br>
+            <button type="button" class="btn btn-outline-dark">LEARN MORE</button>
+          </div>
+        </div>
+
+        <div data-aos="flip-up" data-aos-delay="300" class="card" style="width: 24rem; height: 30rem;">
+          <img src="https://www.ny.gov/sites/ny.gov/files/styles/schedule_block_310x174/public/thumbnails/image/phone-emailupdates.png?itok=l-Hk0U46" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a class="link_main_card" href="#">COVID Alert NY</a><br><br>
+            <p class="card-text">Download the app to get COVID-19 exposure alerts and help to protect your community while maintaining your privacy. See the are color-coded Red,</p><br>
+            <button    type="button" class="btn btn-outline-dark">DOWNLOAD APP</button>
+          </div>
+        </div>
+
+        <div data-aos="fade-down-left" data-aos-delay="300" class="card" style="width: 24rem ; height: 30rem;">
+          <img src="https://www.ny.gov/sites/ny.gov/files/styles/schedule_block_310x174/public/thumbnails/image/Coronavirus_Image.png?itok=_tlW9ZOn" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a class="link_main_card" href="#">Sign Up for Coronavirus Updates</a><br><br>
+            <p class="card-text">Sign up for email updates from New York State with critical information on the Coronavirus pandemic. See the maps of the current clusters which are color-coded Red, </p><br> 
+            <button type="button" class="btn btn-outline-dark">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section4">
+      <div class="card2">
+        <div class="maintext maintext_card">
+          <h4 style="color: orange;">PLAN</h4>
+          <h1>Ahead</h1>
+        </div>
+        <div class="row"> 
+          <div class="col-sm-4">
+            <div data-aos="fade-right" class="card">
+              <div class="card-body">
+                <p>11.02.2020</p>
+                <h1 class="card-title"> November</h1>
+                <p class="card-text">Get Heating Assistance</p>
+                <button type="button" class="btn btn-outline-warning">APPLY FOR HEAP</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div data-aos="fade-up"  class="card">
+              <div class="card-body">
+                <p>11.01.2020</p>
+                <h1 class="card-title"> November</h1>
+                <p class="card-text">DIY Field Trips for Kids</p>
+                <button type="button" class="btn btn-outline-warning">PLAN YOUR TRIP</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div data-aos="fade-left" class="card">
+              <div class="card-body">
+                <p>12.31.2020</p>
+                <h1 class="card-title"> December</h1>
+                <p class="card-text">Special Enrollment Period Deadline</p>
+                <button type="button" class="btn btn-outline-warning">GET HEALTH COVERAGE</button>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section class="section5">
+      <div class="maintext maintext_card">
+        <h4 style="color: orange;">NEW YORK STATE</h4>
+        <h1>Government</h1>
+      </div>
+      <div class="row"> 
+        <div data-aos="zoom-in-up" class="col-sm-4">
+          <div class="card"  >
+            <img src="https://www.ny.gov/sites/ny.gov/files/thumbnails/image/CuomoGovSectionPhoto.jpg" class="card-img-top" alt="...">
+            <div class="card-body"> 
+              <a class="link_span" href="#">GOVERNOR</a>
+              <h1>Andrew M. Cuomo</h1>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000" class="col-sm-4">
+          <div class="card" style= >
+            <img src="https://www.ny.gov/sites/ny.gov/files/thumbnails/image/DiNapoliGovSectionPhoto.jpg" class="card-img-top" alt="...">
+            <div class="card-body"> 
+              <a class="link_span" href="#">GOVERNOR</a>
+              <h1>Andrew M. Cuomo</h1>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in-up" class="col-sm-4">
+          <div class="card"  >
+            <img src="https://www.ny.gov/sites/ny.gov/files/thumbnails/image/AG-headshot-blur.jpg" class="card-img-top" >
+            <div class="card-body"> 
+              <a class="link_span" href="#">ATTORNEY GENERAL</a>
+              <h1>Letitia James</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="foter_01">
+      <form class="form_footer">
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" placeholder="email " id="inputEmail3">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" placeholder="password" id="inputPassword3">
+          </div>
+        </div>
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  First radio
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Second radio
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                <label class="form-check-label" for="gridRadios3">
+                  Third disabled radio
+                </label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div class="form-group row">
+          <div class="col-sm-2">Checkbox</div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Example checkbox
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </footer>
+  <section>
+    <div class="foot">
+      <h4>New Yourk 2020</h4>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstr"></script> 
+ 
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <!-- aosjs -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- fansy -->
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script> 
+
+  <!-- demosjs -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener('load', addDarkmodeWidget);
+      const options = {
+      bottom: '64px', // default: '32px'
+      right: 'unset', // default: '32px'
+      left: '32px', // default: 'unset'
+      time: '0.5s', // default: '0.3s'
+      mixColor: '#fff', // default: '#fff'
+      backgroundColor: '#fff',  // default: '#fff'
+      buttonColorDark: '#100f2c',  // default: '#100f2c'
+      buttonColorLight: '#fff', // default: '#fff'
+      saveInCookies: false, // default: true,
+      label: '🌓', // default: ''
+      autoMatchOsTheme: true // default: true
+    }
+
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
+    </script>
+  </script>
+</body>
+</html>
